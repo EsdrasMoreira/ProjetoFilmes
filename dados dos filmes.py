@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import ast
 from scipy.stats import f_oneway, f
-import numpy as np
 
 movies = pd.read_csv(f'{caminho}\\tmdb_5000_movies.csv') #carregando os dados
 credits = pd.read_csv(f"{caminho}\\tmdb_5000_credits.csv")#carregando os dados
